@@ -5,7 +5,7 @@ node{
     dir('BuildQuality'){
         stage('Preparation'){
                         
-            git 'https://github.com/devopsevd/simple-spring.git'
+            git 'https://github.com/ssathyam/simple-spring.git'
             mvnHome = tool 'Maven'
         }
 
